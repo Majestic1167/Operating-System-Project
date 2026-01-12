@@ -1,9 +1,6 @@
 OPERATING SYSTEMS - SUDOKU SERVER AND MULTI PLAYERS
 
-AUTHORS:
-Aashish Kumar Thapa - 2024623
-José Faria - 2174922
-Raquel Freitas - 2146623
+
 
 TO COMPILE:
 1. Open terminal
@@ -20,7 +17,7 @@ TO EXECUTE:
     ./server
 
 2. On another terminal, start client:
-    ./client 127.0.0.1 8082
+    ./client client_config.txt
 
 
 To play normal mode select 'n' 
@@ -32,6 +29,7 @@ in this case if there are 2 clients.
 Client receives a puzzle and sends their solution.
 
 Server verifies the solution and checks if it's correct.
+
 
 
 
