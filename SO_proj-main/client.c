@@ -222,7 +222,7 @@ void display_board_with_messages(char *puzzle, char *solution) {
     pthread_mutex_unlock(&print_lock);
 }
 
-// Returns 1 if correct (should exit), 0 if incorrect (should retry)
+
 // Returns 1 if correct (should exit), 0 if incorrect (should retry)
 int submit_solution(int sock, char *solution, int hints_used, int client_id, int tournament) {
     
